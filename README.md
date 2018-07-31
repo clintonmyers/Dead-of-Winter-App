@@ -4,12 +4,12 @@ Dead of Winter is a semi-cooperative zombie survival board game originally creat
 
 Current Features:
 
-  -Board view (Desktop/Tablet) . 
-  -Player view (Mobile) . 
-  -Interactive Zombie/Barricade Tokens . 
+  -Board view (Desktop/Tablet)  
+  -Player view (Mobile)  
+  -Interactive Zombie/Barricade Tokens  
 
 Features Coming Soon:
 
-  -Main Menu . 
-  -Firebase Game Instances . 
-  -Character Tokens w/ Movement . 
+  -Main Menu  
+  -Firebase Game Instances  
+  -Character Tokens w/ Movement  

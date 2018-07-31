@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.loc {
+  display: inline-block;
+  width: 16.3vw;
+  height: 16.3vw;
+  background-size: contain;
+}
+
+.main {
+  display: inline-block;
+  width: 53vw;
+  height: 31vw;
+  background-image: url('./resources/board/boardweb.jpg');
+  background-size: contain;
+}
+
+.items-and-noise {
+  height: 5.4vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.item-deck, .noise {
+  width: 30%;
+  text-align: center;
+  background-color: #444;
+  color: white;
+  border-radius: 25%;
+  opacity: 0.6;
+}
+
+.survivor-row {
+  margin-top: 3.4vw;
+}
+
+.zombie-row {
+  margin-top: 1.3vw;
+}
+
+.survivor-row, .zombie-row {
+  display: inline-flex;
+  justify-content: center;
+  width: 99%;
+  height: 2.5vw;
+}
+
+.survivor-slot, .zombie-slot {
+  width: 17%;
+  height: 100%;
+  border-radius: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.police-station {background-image: url('./resources/board/01web1.jpg');}
+.grocery-store {background-image: url('./resources/board/02web1.jpg');}
+.school {background-image: url('./resources/board/03web1.jpg');}
+.library {background-image: url('./resources/board/04web1.jpg');}
+.hospital {background-image: url('./resources/board/05web1.jpg');}
+.gas-station {background-image: url('./resources/board/06web1.jpg');}
+
+.barricade {background-color: black;}
+.zombie {background-image: url('./resources/tokens/zombie.jpg');}
+
+.player-view {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.player-view h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.player-view-card {
+  width: 49vw;
+  height: 69vw;
+  border-radius: 6%;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.character-10 {background-image: url('./resources/characters/10.jpg');}
+.character-12 {background-image: url('./resources/characters/12.jpg');}
+.character-14 {background-image: url('./resources/characters/14.jpg');}
+.character-16 {background-image: url('./resources/characters/16.jpg');}
+.character-18 {background-image: url('./resources/characters/18.jpg');}
+.character-20 {background-image: url('./resources/characters/20.jpg');}
+.character-22 {background-image: url('./resources/characters/22.jpg');}
+.character-24 {background-image: url('./resources/characters/24.jpg');}
+.character-26 {background-image: url('./resources/characters/26.jpg');}
+.character-28 {background-image: url('./resources/characters/28.jpg');}
+.character-30 {background-image: url('./resources/characters/30.jpg');}
+.character-32 {background-image: url('./resources/characters/32.jpg');}
+.character-34 {background-image: url('./resources/characters/34.jpg');}
+.character-36 {background-image: url('./resources/characters/36.jpg');}
+.character-38 {background-image: url('./resources/characters/38.jpg');}
+.character-40 {background-image: url('./resources/characters/40.jpg');}
+.character-42 {background-image: url('./resources/characters/42.jpg');}
+.character-44 {background-image: url('./resources/characters/44.jpg');}
+.character-46 {background-image: url('./resources/characters/46.jpg');}
+.character-48 {background-image: url('./resources/characters/48.jpg');}
+.character-50 {background-image: url('./resources/characters/50.jpg');}
+.character-52 {background-image: url('./resources/characters/52.jpg');}
+.character-54 {background-image: url('./resources/characters/54.jpg');}
+.character-56 {background-image: url('./resources/characters/56.jpg');}
+.character-58 {background-image: url('./resources/characters/58.jpg');}
+.character-60 {background-image: url('./resources/characters/60.jpg');}
+.character-62 {background-image: url('./resources/characters/62.jpg');}
+.character-64 {background-image: url('./resources/characters/64.jpg');}
+.character-66 {background-image: url('./resources/characters/66.jpg');}
+.character-68 {background-image: url('./resources/characters/68.jpg');}
+
+.item-food1-00 {background-image: url('./resources/items/00-food1.jpg');}
+.item-fuel-00 {background-image: url('./resources/items/00-fuel.jpg');}
+.item-junk-00 {background-image: url('./resources/items/00-junk.jpg');}
+.item-medicine-00 {background-image: url('./resources/items/00-medicine.jpg');}
+.item-pistol-01 {background-image: url('./resources/items/01-pistol.jpg');}
+.item-food2-02 {background-image: url('./resources/items/02-food2.jpg');}
+.item-outsiders2-03 {background-image: url('./resources/items/03-2outsiders.jpg');}
+.item-libraryblueprints-04 {background-image: url('./resources/items/04-libraryblueprints.jpg');}
+.item-adrenaline-05 {background-image: url('./resources/items/05-adrenaline.jpg');}
+.item-lighter-06 {background-image: url('./resources/items/06-lighter.jpg');}

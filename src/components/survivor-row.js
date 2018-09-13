@@ -12,7 +12,7 @@ class SurvivorRow extends Component {
   slotState(slots) {
     let arr = [];
     for (let i = 0; i < slots; i++) {
-      arr.push(1);
+      arr.push(10);
     }
     this.setState({ Survivor : arr });
   }
@@ -22,8 +22,8 @@ class SurvivorRow extends Component {
   render() {
     return (
       <div className='survivor-row'>
-        {this.state.Survivor.map((slot, index) => (
-          <Survivor num={this.props.num} index={index} key={'loc' + this.props.num + 'sur' + index}/>
+        {this.state.Survivor.map((survivor, index) => (
+          <Survivor num={this.props.num} index={index} survivor={survivor} key={'loc' + this.props.num + 'sur' + index}/>
         ))}
       </div>
     )

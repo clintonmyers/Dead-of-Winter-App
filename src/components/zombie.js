@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Zombie extends Component {
   constructor(props) {
     super(props);
-    this.state = { slot : '' };
+    this.state = { slot : 'zombie' };
 
     this.toggle = this.toggle.bind(this);
   }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './app.css';
+import Main from './components/main';
 import Location from './components/location';
 import PlayerView from './components/player-view';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -30,13 +31,15 @@ class App extends Component {
           <Route path="/" exact render={
             () => { return (
               <div className="app">
-                <Location num="1" sur="3" zom="4" loc="police-station"/>
-                <Location num="2" sur="3" zom="4" loc="grocery-store"/>
-                <Location num="3" sur="4" zom="4" loc="school"/>
-                <Location num="4" sur="3" zom="3" loc="library"/>
-                <Location num="5" sur="4" zom="4" loc="hospital"/>
-                <Location num="6" sur="2" zom="3" loc="gas-station"/>
-                <div className="main"></div>
+                <Main />
+                <div className="loc-container">
+                  <Location num="1" sur="3" zom="4" loc="police-station"/>
+                  <Location num="2" sur="3" zom="4" loc="grocery-store"/>
+                  <Location num="3" sur="4" zom="4" loc="school"/>
+                  <Location num="4" sur="3" zom="3" loc="library"/>
+                  <Location num="5" sur="4" zom="4" loc="hospital"/>
+                  <Location num="6" sur="2" zom="3" loc="gas-station"/>
+                </div>
               </div>
             )}}/>
 

@@ -14,5 +14,5 @@ Features Coming Soon:
   -Firebase Game Instances  
   -Character Tokens w/ Movement  
 
-*Resources not uploaded to prevent possible copyright infringement*
+*Resources not uploaded to prevent possible copyright infringement.*
 *I am not affiliated with Dead of Winter or Plaid Hat Games and am not profiting from this*
